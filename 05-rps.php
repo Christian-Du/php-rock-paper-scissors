@@ -60,7 +60,7 @@
         shuffle($arr);
         $is_win = Is_Win($user_choice, $arr[0]);
         SetCompPic($arr[0]);
-        $rps_display = "Du hast Schere geklickt!
+        $rps_display = "Du hast $user_choice geklickt!
         Und der Computer hat $arr[0] gewählt.
         $is_win";
     }
